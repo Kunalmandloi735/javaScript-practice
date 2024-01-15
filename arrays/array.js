@@ -71,4 +71,7 @@ let score1 = 100;
 let score2 = 120;
 let score3 = 140;
 
+const arr =[ "hare", "krishna", "hare", "krishna", "hare"];
 console.log(Array.of(score1, score2, score3));
+
+
