@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>DOM learning</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 100px;
+            box-sizing: border-box;
+        }
+
+        .bg-black {
+            background-color: rgb(42, 35, 35);
+            color: white;
+        }
+
+        .container {
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+            border: 5px solid red;
+            padding: 1rem;
+        }
+
+        button {
+            background-color: chartreuse;
+            border-radius: 4px;
+            padding: 5px;
+
+        }
+
+        input[type=number] {
+            padding: 5px;
+            border-radius: 4px;
+
+        }
+
+        .prev {
+            padding: 10px;
+            align-self: center;
+        }
+
+        .remain {
+            padding: 10px;
+            align-self: center;
+        }
+    </style>
+</head>
+
+<body class="bg-black">
+    <div class="container">
+        <h1>Number Guessing Game</h1>
+        <div class="para">
+            <p>Here we are going to do one project</p>
+        </div>
+        <div class="heading">
+            <h2>Guess the number</h2>
+        </div>
+        <div class="myForm">
+            <form class="form">
+                <input type="number" id="num" name="num" placeholder="Enter the number">
+                <button type="submit">Submit</button>
+            </form>
+        </div>
+
+        <div class="prev">Previous Guesses : <span class="prevGuess"></span></div>
+        <div class="remain"> Guesses Remaining : <span class="lastResult">10</span> </div>
+
+    </div>
+    <script src="one.js">
+
+    </script>
+</body>
+
+</html>
